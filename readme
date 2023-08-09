@@ -1,0 +1,10 @@
+# API para buscar cep
+
+> instalar os frameworks para rodar o projeto (frameworks no package.json)
+### npm i
+
+> Para rodar o projeto em dev
+### npm run dev
+
+> Para rodar o projeto em prod
+### npm run start

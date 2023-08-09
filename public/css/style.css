@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200&family=Edu+VIC+WA+NT+Beginner&family=Heebo:wght@100&family=Kanit:wght@600&family=Montserrat&family=Prompt:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Source+Sans+Pro:ital,wght@0,300;1,300&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark: rgb(161, 155, 155);
+    --black: #000;
+    --white: #fff;
+    --blue: rgb(10, 156, 240);
+}
+
+body{
+    font-family: 'Anek Tamil', sans-serif;
+    margin: 10px;
+    background-color: var(--black);
+    color: var(--white);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container{
+    background-color: var(--black);
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+}
+
+input{
+    border: 1px solid var(--dark);
+    color: var(--blue);
+    background-color: var(--black);
+    border-radius: 4px;
+}
+
+input::placeholder{
+    text-align: left;
+    color: var(--dark);
+}
+
+button{
+    border: 1px solid var(--dark);
+    border-radius: 6px;
+    background-color: var(--black);
+    color: var(--dark);
+    transition: 0.6s;
+}
+
+button:hover{
+    background-color: var(--dark);
+    color: var(--black);
+    border: 1px solid var(--blue);
+    transition: 0.6s;
+}
+
+div{
+    margin: 10px;
+}
+
+@media screen and (max-width:480px){
+
+    .container{
+        height: 130px;
+        width: 300px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    input{
+        width: 250px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    button{
+        width: 80px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    .container{
+        height: 140px;
+        width: 350px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    input{
+        width: 300px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    button{
+        width: 90px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 769px){
+
+    .container{
+        height: 145px;
+        width: 400px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    input{
+        width: 300px;
+        height: 20px;
+        padding: 5px;
+    }
+
+    button{
+        width: 100px;
+        height: 22px;
+    }
+
+}
+
